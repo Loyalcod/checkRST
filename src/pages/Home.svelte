@@ -32,6 +32,8 @@
 
 <Headers on:click={toggolModel} />
 
+
+
 <ShowModel {showInModel} on:click={toggolModel} >
 	<FormModel on:studentDetail={prepareResult} />
 </ShowModel>
